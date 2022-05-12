@@ -14,5 +14,43 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Utils */
 
+/* Cards */
+
+.contained {
+    height: 100px;
+    width:  calc(100% /3 - 20px);
+    margin: 10px;
+    background-color: #000;
+    color: #FFF;
+    float: left;
+
+}
+
+img{
+    height: 100px;
+    float: left;
+    vertical-align: 100px;
+    margin-right: 10px;
+}
+
+.text-description{
+    vertical-align: 100px;
+    padding-top: 15px;
+}
+
+a {
+    color: #3C9DCF;
+}
