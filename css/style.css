@@ -25,6 +25,19 @@ body {
     clear: both;
 }
 
+header {
+    text-align: center;
+}
+
+h1 {
+    color: var(--pink);
+    line-height: 150px;
+    font-size: 38px;
+}
+
+p {
+    margin-bottom: 20px;
+}
 /* Utils */
 
 /* Cards */
